@@ -21,7 +21,7 @@ resources:
       sourceArtifactory: {{ .Values.artifactoryIntegration }}
 
 pipelines:
-  - name: app_dev_pipeline
+  - name: app_dev_pipeline_su204
     steps:
       - name: app_build
         type: DockerBuild
