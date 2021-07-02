@@ -4,4 +4,4 @@ artifactoryIntegration: artifactory_int
 imageName: app_docker_image
 artifactoryUrl: icarus1aa.jfrogdev.org   # replace swampup with your server name
 sourceRepository: docker-staging-local  # create local repository in Artifactory
-prodRepository: su204-docker-prod-local # create local repository in Artifactory
+#prodRepository: su204-docker-prod-local # create local repository in Artifactory
