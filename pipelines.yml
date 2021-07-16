@@ -72,7 +72,7 @@ pipelines:
           comment: "promoted via pipeline ${pipeline_name} in run number ${run_number}"
           inputResources:
             - name: app_buildinfo
-              #trigger: false
+              trigger: false
           outputResources:
             - name: app_promoted_buildinfo
 
