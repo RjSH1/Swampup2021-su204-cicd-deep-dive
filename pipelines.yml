@@ -61,8 +61,8 @@ pipelines:
       #    inputResources:
       #      - name: app_buildinfo   
 
-  - name: app_prod_pipeline_su204
-    steps:
+  #- name: app_prod_pipeline_su204
+   # steps:
       - name: app_promote_build
         type: PromoteBuild
         configuration:
