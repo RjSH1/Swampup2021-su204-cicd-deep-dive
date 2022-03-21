@@ -118,7 +118,7 @@ pipelines:
  
  
  
-   - name: cd_demo_release_mgmt
+  - name: cd_demo_release_mgmt
     steps:
       - name: bundle
         type: CreateReleaseBundle
@@ -154,4 +154,4 @@ pipelines:
           dryRun: false
           inputResources:
             - name: signed_bundle
-            - name: distribution_rules
+            - name: distribution_rules 
