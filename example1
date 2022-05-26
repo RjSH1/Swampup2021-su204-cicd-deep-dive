@@ -1,7 +1,7 @@
 template: true   # required for local templates
 valuesFilePath: ./values.yml
 
-resources:
+#resources:
   - name: app_repo
     type: GitRepo
     configuration:
@@ -52,7 +52,7 @@ resources:
         - "CN"
         - "GB"      
 
-pipelines:
+#pipelines:
   - name: app_dev_pipeline_su204
     steps:
       - name: app_build
