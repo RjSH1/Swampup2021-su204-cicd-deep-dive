@@ -1,4 +1,4 @@
-gitIntegration: myGithub
+gitIntegration: ACMEGit
 gitRepositoryPath: RjSH1/Swampup2021-su204-cicd-deep-dive  # replace jfrog with your username or org name
 artifactoryIntegration: ACMEArt
 imageName: app_docker_image
