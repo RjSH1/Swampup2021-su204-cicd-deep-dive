@@ -22,6 +22,8 @@ resources:
 
 pipelines:
   - name: app_dev_pipeline_su204
+    configuration:
+      jfrogCliVersion: 2
     steps:
       - name: app_build
         type: DockerBuild
